@@ -215,6 +215,7 @@ nav{
     background: #fff;
     margin: 0 30px;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 .product-slider-with-price .products{
@@ -235,7 +236,48 @@ nav{
     min-height: 210px;
     background: #fbfbfb;
 }
+.product-card img{
+    width: 110px;
+    margin: 0 50px;
+    cursor: pointer;
+}
+.product-offer p{
+    background:#be0b3b;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 5px;
+    margin: 8px 0;
+    font-size: 13px;
+    border-radius: 2px;
+}
 
+.product-offer   span{
+    color: #be0b3b;
+    font-weight: 500;
+    font-size: 12px; 
+}
+
+.product-price{
+    color: gray;
+    font-size: 13px;
+}
+
+.product-card h4{
+    color:#525252 ;
+    font-size: 15px;
+    font-weight: 400;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background: #131921;
+    padding: 20px 60px;
+
+}
 
 
 
